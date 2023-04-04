@@ -1,8 +1,7 @@
 body{
-  background-image: url(background.jpg);
-  background-position:right;
-    background-repeat:no-repeat;
-    max-width: 100%;
+  background-color:#FF7B54;
+ 
+  max-width: 100%;
 }
 .center{
  display: flex;
@@ -10,19 +9,19 @@ body{
 }
 
 .crossed {
-  text-decoration: line-through 2px red;
+  text-decoration: line-through 2px #939B62;
+  background-color: #FF7B54;
 
-  background-color: #f0f0f0;
 
 }
 h1{
   font-family: 'Roboto', sans-serif;
-  color: #8B7E74;
+  color: #939B62;
   text-shadow: 2px 2px black;
   font-size: 50px;
 }
 input{
-  padding-left: 10px;
+  padding-left: 20px;
   margin: 10px;
   font-family: 'Roboto', sans-serif;
   width:40%;
@@ -35,7 +34,7 @@ input{
   margin: 5px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  background-color: #FEBE8C;
+  background-color: #FFB26B;
   border: none;
   border-radius: 5px;
   margin-left: 10px;
@@ -48,7 +47,7 @@ input{
   margin: 5px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  background-color: #FEBE8C;
+  background-color: #FFB26B;
   border: none;
   border-radius: 5px;
   margin-left: 10px;
@@ -61,7 +60,18 @@ ul, li {
   padding: 10px;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  color: #8B7E74;
+  color: #FFD56F;
   text-shadow: 2px 2px black;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 40em) {
+
+  input{
+  
+    font-size:10px;
+  
+  }
+
+
 }
